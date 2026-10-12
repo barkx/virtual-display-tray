@@ -1,0 +1,16 @@
+* text=auto
+
+# Windows scripts must keep CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.cs  text eol=crlf
+*.manifest text eol=crlf
+option.txt text eol=crlf
+
+# Driver files: never touch (the .inf is UTF-16, the .cat is signed)
+*.inf binary
+*.dll binary
+*.cat binary
+*.cer binary
+*.ico binary
+*.exe binary

@@ -1,0 +1,23 @@
+# Build output (published through GitHub Releases, not committed)
+bin/
+obj/
+*.exe
+*.pdb
+
+# Archives / local copies
+*.zip
+*.rar
+*.7z
+VirtualDisplayTray-site/
+README.old.md
+
+# Logs
+*.log
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vs/
+.vscode/
+*.user
