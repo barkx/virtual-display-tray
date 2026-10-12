@@ -26,7 +26,7 @@ It bundles an [Indirect Display (IddCx)](https://learn.microsoft.com/windows-har
 - **One-click toggle.** Left-click the tray icon to switch the virtual display on or off. Red dot = off, green = on, yellow = working.
 - **Single self-contained `.exe`.** The driver files are embedded and unpacked on first run.
 - **Starts with Windows.** A scheduled task runs it elevated at login, with no UAC prompt each time.
-- **Many resolutions.** 640×480 up to 8K, configurable in [`driver/option.txt`](driver/option.txt).
+- **71 preset resolutions.** From 640×480 to ultrawide 8640×3600, configurable in [`driver/option.txt`](driver/option.txt).
 - **Clean uninstall.** One menu item removes the device, driver, scheduled task and all files.
 - **Logging.** Every action is timestamped in a log you can open from the tray menu.
 - **Tiny.** About 185 KB. Built with the C# compiler already included in Windows (.NET Framework 4.x).
